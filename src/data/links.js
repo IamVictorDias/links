@@ -1,10 +1,13 @@
 // Dados da página. Para editar links, mexa só neste arquivo.
+// Imagens locais precisam ser importadas para o Vite incluí-las no build (caminho em string quebra no GitHub Pages).
+import avatar from "../assets/images/avatar.webp";
+
 export const perfil = {
   nome: "Victor Dias",
   usuario: "@iamvictordias",
   bio: "Pokémon TCG, Colecionador e Criador de Conteúdo", // manter o texto do mock até termos a bio real
   frase: "Colecionando histórias. Jogando para evoluir.", // manter o texto do mock até termos a frase real
-  avatar: "./src/assets/images/avatar.webp", // vazio = usa o avatar ilustrado do mock; coloque a URL/caminho da foto real aqui
+  avatar, // vazio = usa o avatar ilustrado do mock; coloque a URL/caminho da foto real aqui
 };
 
 /**
