@@ -2,9 +2,9 @@
 export const perfil = {
   nome: "Victor Dias",
   usuario: "@iamvictordias",
-  bio: "Pokémon TCG Player, Collector & Content Creator", // manter o texto do mock até termos a bio real
+  bio: "Pokémon TCG, Colecionador e Criador de Conteúdo", // manter o texto do mock até termos a bio real
   frase: "Colecionando histórias. Jogando para evoluir.", // manter o texto do mock até termos a frase real
-  avatar: "", // vazio = usa o avatar ilustrado do mock; coloque a URL/caminho da foto real aqui
+  avatar: "./src/assets/images/avatar.webp", // vazio = usa o avatar ilustrado do mock; coloque a URL/caminho da foto real aqui
 };
 
 /**
@@ -16,7 +16,6 @@ export const perfil = {
  * @property {string} descricao  texto pequeno abaixo do título do card
  * @property {string} rotulo     texto em caixa alta acima do título do card
  * @property {string} cor        cor de destaque do card: yellow, cyan, purple ou green
- * @property {boolean} [pendente] true = dado provisório, falta confirmar com o cliente
  * @property {boolean} [social]   false = não aparece na barra de ícones de redes sociais (só como card)
  */
 
@@ -36,9 +35,8 @@ export const links = [
   {
     id: "youtube",
     titulo: "YouTube",
-    url: "https://www.youtube.com/", // TODO: trocar pelo canal real
+    url: "https://www.youtube.com/@victordias7135",
     icone: "youtube",
-    pendente: true,
     descricao: "Dicas, gameplays e aberturas de boosters",
     rotulo: "CONTEÚDO NOVO",
     cor: "yellow",
@@ -46,9 +44,8 @@ export const links = [
   {
     id: "tiktok",
     titulo: "TikTok",
-    url: "https://www.tiktok.com/", // TODO: trocar pelo perfil real
+    url: "https://www.tiktok.com/@iam.victor.dias",
     icone: "tiktok",
-    pendente: true,
     descricao: "Aberturas de boosters, dicas rápidas e melhores momentos",
     rotulo: "POKÉMON TCG EM VÍDEOS CURTOS",
     cor: "purple",
